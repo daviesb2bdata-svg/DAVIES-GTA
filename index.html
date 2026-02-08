@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Davies GTA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; background:#000; overflow:hidden; }
+    #game { width:100vw; height:100vh; }
+    /* small HUD default style if not created by script */
+    #hud { position:absolute; left:12px; top:12px; padding:8px 10px; background:rgba(0,0,0,0.4); border-radius:6px; color:#fff; z-index:1000; }
+    canvas { display:block; }
+  </style>
+</head>
+<body>
+
+  <div id="game"></div>
+
+  <!-- Phaser engine (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+
+  <!-- Game script (paste the scripts/main.js content into this file) -->
+  <script src="scripts/main.js"></script>
+
+</body>
+</html>
